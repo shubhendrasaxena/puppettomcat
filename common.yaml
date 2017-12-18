@@ -1,0 +1,27 @@
+--- 
+tomcat: 
+  catalina_base: /usr/share/tomcat6
+  catalina_home: /usr/share/tomcat6
+  catalina_pid: /var/run/tomcat6.pid
+  catalina_tmpdir: /var/cache/tomcat6/temp
+  config_path: /etc/tomcat6/tomcat6.conf
+  group: tomcat
+  jasper_home: /usr/share/tomcat6
+  java_home: /usr/lib/jvm/jre
+  java_opts: "-Xms${xms} -Xmx${xmx} -XX:MaxPermSize=${maxpermsize} -Djava.security.egd=file:/dev/./urandom"
+  maxpermsize: 128M
+  mode: 420
+  owner: tomcat
+  packages: tomcat6
+  security_manager: false
+  service_name: tomcat6
+  service_state: running
+  shutdown_verbose: false
+  shutdown_wait: 30
+  tomcat_cfg_loaded: 1
+  user: tomcat
+  xms: 69m
+  xmx: 129m
+
+
+
