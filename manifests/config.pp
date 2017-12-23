@@ -1,5 +1,5 @@
 class tomcat::config (
-    String $config_path = lookup({"name" => "config_path", "default_value" => $::tomcat::params::config_path}),
+    String $config_path = lookup({"name" => "config_path"}),
 	
 ) {
 
